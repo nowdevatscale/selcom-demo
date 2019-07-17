@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_selcom_demo.testse</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testse</name>
+        <script><![CDATA[var testse = Class.create();
+testse.prototype = {
+    initialize: function() {
+    },
+
+    type: 'testse'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>bo.jackson</sys_created_by>
+        <sys_created_on>2019-07-17 16:17:30</sys_created_on>
+        <sys_id>3766b5c0db367300f28af78eaf96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testse</sys_name>
+        <sys_package display_value="selcom demo" source="x_snc_selcom_demo">0b635473dbe27300f28af78eaf9619cc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="selcom demo">0b635473dbe27300f28af78eaf9619cc</sys_scope>
+        <sys_update_name>sys_script_include_3766b5c0db367300f28af78eaf96194d</sys_update_name>
+        <sys_updated_by>bo.jackson</sys_updated_by>
+        <sys_updated_on>2019-07-17 16:17:30</sys_updated_on>
+    </sys_script_include>
+</record_update>
